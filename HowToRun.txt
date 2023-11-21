@@ -1,0 +1,12 @@
+Author: @VuThanhDuong
+
+Yêu cầu: python3, matplotlib, numpy
+
+Lệnh cài đặt matplotlib:
+python3 -m pip install matplotlib
+
+Lệnh cài đặt numpy:
+python3 -m pip install numpy
+
+Lệnh chạy chương trình:
+python3 tsp.py
