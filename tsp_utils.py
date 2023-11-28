@@ -5,7 +5,7 @@ import numpy as np
 
 def vectorToDistMatrix(coords):
     '''
-    Tạo khoảng cách ma trận
+    Tạo ma trận kề
     '''
     return np.sqrt((np.square(coords[:, np.newaxis] - coords).sum(axis=2)))
 

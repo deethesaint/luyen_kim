@@ -1,6 +1,6 @@
 import math
 import random
-import matplotlib.pyplot
+import matplotlib.pyplot as plt
 import tsp_utils
 import animated_visualizer
 
@@ -21,7 +21,6 @@ class LuyenKim:
                 nhiệt độ tối thiểu == dừng thuật toán
             stopping_iter: int
                 số lần lặp tối đa == dừng thuật toán
-
         '''
 
         self.coords = coords
@@ -71,7 +70,6 @@ class LuyenKim:
             if candidate_weight < self.min_weight:
                 self.min_weight = candidate_weight
                 self.best_solution = candidate
-
         else:
             if random.random() < self.acceptance_probability(candidate_weight):
                 self.curr_weight = candidate_weight

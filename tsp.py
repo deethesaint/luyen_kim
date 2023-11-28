@@ -4,6 +4,10 @@ from luyenkim import LuyenKim
 
 def main():
     '''
+    Module merged by: Vu Thanh Duong
+    '''
+
+    '''
     Các thông số ban đầu cho bài toán TSP
     
     temp: nhiệt độ
