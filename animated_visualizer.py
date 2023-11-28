@@ -5,7 +5,6 @@ import numpy as np
 
 def animateTSP(history, points):
     '''
-
         Danh sách tham số
         ----------
         history : list

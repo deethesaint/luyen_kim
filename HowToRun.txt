@@ -1,5 +1,6 @@
 Author: @VuThanhDuong
 Modified date: 24/11/23 23:52
+Github: https://github.com/deethesaint/luyen_kim
 Yêu cầu: python3, matplotlib, numpy
 
 Lệnh cài đặt matplotlib:
