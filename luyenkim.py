@@ -81,6 +81,9 @@ class LuyenKim:
         '''
         while self.temp >= self.stopping_temp and self.iteration < self.stopping_iter:
             candidate = list(self.curr_solution)
+            '''
+            Tìm kiếm giải pháp lân cận
+            '''
             l = random.randint(2, self.sample_size - 1)
             i = random.randint(0, self.sample_size - l)
 
@@ -93,9 +96,15 @@ class LuyenKim:
             self.solution_history.append(self.curr_solution)
 
     def animateSolutions(self):
+        '''
+        Mô phỏng quá trình giải của thuật toán
+        '''
         animated_visualizer.animateTSP(self.solution_history, self.coords)
 
     def plotLearning(self):
+        '''
+        Thống kê
+        '''
         plt.plot([i for i in range(len(self.weight_list))], self.weight_list)
         line_init = plt.axhline(y=self.initial_weight, color='r', linestyle='--')
         line_min = plt.axhline(y=self.min_weight, color='g', linestyle='--')

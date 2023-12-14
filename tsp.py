@@ -38,7 +38,7 @@ def main():
     '''Mô phỏng'''
     sa.animateSolutions()
 
-    '''Cập nhật lại các giải pháp mới'''
+    '''Thống kế'''
     sa.plotLearning()
 
 

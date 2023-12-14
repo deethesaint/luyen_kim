@@ -12,7 +12,7 @@ def vectorToDistMatrix(coords):
 
 def nearestNeighbourSolution(dist_matrix):
     '''
-    Tính giải pháp khởi tạo (Phương pháp là lấy neighbor node gần nhất)
+    Tính giải pháp khởi tạo (Phương pháp là lấy là thuật toán NearestNeighbor - một thuật toán dùng để giải quyết TSP nhưng kém tối ưu hơn so với)
     -- Giải thích: Giải pháp khởi tạo là các giải pháp được tạo ra một cách ngẫu nhiên
     khi vừa execute chương trình.
     -- Các giải pháp của bài toán TSP sẽ được update theo thời gian.
